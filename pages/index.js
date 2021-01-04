@@ -34,26 +34,23 @@ export default function Home() {
       <Arrow />
       <div id="faq" className="section grid grid-cols-1 auto-rows-auto gap-10">
         <Heading heading="Quick answers to quick questions." subheading="(so we don't get in trouble)" />
-        <Question link={true} question="What ages?" answer="Incoming High School freshmen (that’s 13yo) to High School seniors (that’s 19yo).">
-          modal 1
+        <Question link={false} question="What ages?" answer="Incoming High School freshmen (that’s 13yo) to High School seniors (that’s 19yo).">
         </Question>
-        <Question link={true} question="Is this like SoHacks?" answer="In every way except you won’t create your own project. you’ll be competing.">
-          modal 2
+        <Question link={false} question="Is this like SoHacks?" answer="In every way except you won’t create your own project. you’ll be competing.">
         </Question>
-        <Question link={true} question="Anything I should bring?" answer="Pack your computer, your phone, and your sleeping bag (if you plan on sleeping). We’ll provide the goods.">
-          modal 3
+        <Question link={false} question="Anything I should bring?" answer="Pack your computer, your phone, and your sleeping bag (if you plan on sleeping). We’ll provide the goods.">
         </Question>
         <Question link={true} question="Prizes?" answer="Not just any prizes... We’re keeping them secret to maintain the hype! (but AirPods Pro's for your whole team!!)">
-          modal 4
+          a prizes modal which hasn't been finished yet
         </Question>
         <Question link={true} question="Stickers?" answer="Duh. What kind of event would it be without stickers?">
-          modal 5
+          a sticker modal which hasn't been finished yet
         </Question>
         <Question link={true} question="Pre-requisites?" answer="While nothing explicit, it’d be good to know a scripting language like javascript or python as that’s what each challenge is based on. This means HTML and CSS won’t work.">
-          modal 6
+          a language modal that hasn't been finished yet
         </Question>
         <Question link={true} question="So what if I only know HTML and CSS?" answer="Not to worry, we’ll teach you the basics of Javascript to get you started on some of our challenges. It’s up to you to learn the rest!">
-          modal 7
+          a workshop modal that hasn't been finished yet
         </Question>
         <p className="font-rubik text-sm">Click on a question to view more about it!!</p>
       </div>

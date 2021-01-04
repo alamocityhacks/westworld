@@ -13,6 +13,18 @@ module.exports = {
       spacing: {
         'filesvg': '80px',
       },
+      fontSize: {
+        '8xl': ['5.5rem', '1'],
+      },
+      minHeight: {
+        '3/4': '75%',
+      },
+      minWidth: {
+        'profile': '10rem',
+      },
+      maxWidth: {
+        'profile-sm': '5rem',
+      },
     },
   },
   variants: {

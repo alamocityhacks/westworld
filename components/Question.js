@@ -1,5 +1,5 @@
 import React from 'react'
-import { ModalContext } from '../lib/modalContext';
+import { ModalContext } from '../lib/modalContext'
 import Modal from '../components/Modal'
 
 export default function Question({
