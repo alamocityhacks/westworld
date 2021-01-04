@@ -34,3 +34,10 @@ body {
 .blacklink {
     @apply p-2 hover:bg-black hover:bg-opacity-20 rounded-lg hover:shadow-lg
 }
+
+.outline-text {
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

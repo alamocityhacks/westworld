@@ -6,7 +6,7 @@ import Heading from '../components/Heading'
 import Question from '../components/Question'
 import File from '../components/File'
 import Footer from '../components/Footer'
-import Modal from '../lib/modal'
+import Languages from '../components/modals/Languages'
 
 const splashText = [
   `this isn't your typical hackathon`,
@@ -47,7 +47,7 @@ export default function Home() {
           a sticker modal which hasn't been finished yet
         </Question>
         <Question link={true} question="Pre-requisites?" answer="While nothing explicit, it’d be good to know a scripting language like javascript or python as that’s what each challenge is based on. This means HTML and CSS won’t work.">
-          a language modal that hasn't been finished yet
+          <Languages />
         </Question>
         <Question link={true} question="So what if I only know HTML and CSS?" answer="Not to worry, we’ll teach you the basics of Javascript to get you started on some of our challenges. It’s up to you to learn the rest!">
           a workshop modal that hasn't been finished yet
