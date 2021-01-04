@@ -10,7 +10,7 @@ export default function File({
                 </svg>
             </div>
             <div className="ml-4 pt-1 font-rubik text-white opacity-60 text-3xl uppercase">
-                <h1>{name}</h1>
+                <div>{name}</div>
             </div>
         </a>
     )

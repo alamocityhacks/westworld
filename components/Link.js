@@ -1,6 +1,6 @@
 export default function Link({
     href,
-    children
+    children,
 }) {
     return (
         <a href={href} className="link">

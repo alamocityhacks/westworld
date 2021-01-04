@@ -44,22 +44,10 @@ export default function Home() {
       </div>
       <Arrow mt={20} />
       <div id="sponsors" className="section">
-        <Heading heading="Powered By" subheading="(cause we love out sponsors)" />
+        <Heading heading="Powered By" subheading="(cause we love our sponsors)" />
         <div id="sponsorgrid" className="grid grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img src="stickermule.svg" />
-          <img className="" src="stickermule.svg" />
+          <img src="replit.svg" />
         </div>
       </div>
       <Arrow mt={12} />
