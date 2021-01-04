@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lato:ital,wght@0,700;1,400&family=Open+Sans:wght@300;400;600&family=Rubik+Mono+One&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    background: linear-gradient(180deg, #EC9893 0%, #7E4542 100%);
+    background-repeat: no-repeat;
+}
+
+.splashtext {
+    background: -webkit-linear-gradient(90deg, #eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.specialred {
+    color: #930E0E;
+}
+
+.section {
+    @apply mx-auto px-8 md:px-36 mt-12 md:mt-20 w-screen;
+}
+
+.link {
+    @apply px-4 py-2 hover:bg-white hover:bg-opacity-20 rounded-lg
+}
