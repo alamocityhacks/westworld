@@ -6,7 +6,7 @@ export default function Event({
 }) {
     const description = children;
     return (
-        <div className={`${justify === 'right' ? 'justify-self-end text-right' : 'justify-self-start'} w-4/5 my-12`}>
+        <div className={`${justify === 'right' ? 'justify-self-end text-right' : 'justify-self-start'} w-4/5 xl:w-1/2 my-12`}>
             <div className="font-rubik font-bold uppercase text-4xl text-white">{heading}
                 <div className="ml-2 font-rubik font-normal inline uppercase text-4xl text-white opacity-60">{subheading}</div>
             </div>

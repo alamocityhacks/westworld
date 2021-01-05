@@ -21,9 +21,9 @@ export default function Home() {
       <Head />
       <Nav />
       <div id="hero" className="mt-24 text-center">
-        <img src="/WestWorld.svg" className="pointer-events-none" />
-        <p className="lowercase my-8 md:my-12 font-lato font-bold text-white text-xl md:text-4xl">{ splashText[Math.floor(Math.random() * splashText.length) + 1] ?? `this isn't your typical hackathon` }</p>
-        <a href="/register" className="lowercase py-2 px-4 font-bold bg-white rounded-lg text-lg md:text-xl shadow-md">Sign up</a>
+        <img src="/WestWorld.svg" className="pointer-events-none w-screen" />
+        <p className="lowercase my-8 md:my-12 font-lato font-bold text-white text-xl md:text-4xl xl:text-6xl">{ splashText[Math.floor(Math.random() * splashText.length) + 1] ?? `this isn't your typical hackathon` }</p>
+        <a href="/register" className="lowercase py-2 px-4 font-bold bg-white rounded-lg text-lg md:text-xl xl:text-3xl shadow-md">Sign up</a>
       </div>
       <Arrow mt={24}/>
       <div id="events" className="section grid grid-cols-1 auto-rows-auto">

@@ -24,7 +24,7 @@ body {
 }
 
 .section {
-    @apply mx-auto px-8 md:px-36 mt-12 md:mt-20 w-screen
+    @apply mx-auto px-8 md:px-36 xl:px-96 mt-12 md:mt-20 w-screen xl:mx-auto xl:w-4/5
 }
 
 .link {

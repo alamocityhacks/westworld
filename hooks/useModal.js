@@ -7,14 +7,12 @@ export default function useModal() {
   let handleModal = (content = false) => {
     setModal(!modal);
     if (content) {
-      console.log("openmodal")
       setModalContent(content);
       document.querySelectorAll('.opacity-60').forEach(element => {
         element.classList.remove('opacity-60')
         element.classList.add('changedopacity')
       });
     } else {
-      console.log("closedmodal")
       document.querySelectorAll('.changedopacity').forEach(element => {
         element.classList.add('opacity-60')
         element.classList.remove('changedopacity')
