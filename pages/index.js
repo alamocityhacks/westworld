@@ -25,6 +25,12 @@ export default function Home() {
         <p className="lowercase my-8 md:my-12 font-lato font-bold text-white text-xl md:text-4xl xl:text-6xl">{ splashText[Math.floor(Math.random() * splashText.length) + 1] ?? `this isn't your typical hackathon` }</p>
         <a href="/register" className="lowercase py-2 px-4 font-bold bg-white rounded-lg text-lg md:text-xl xl:text-3xl shadow-md">Sign up</a>
       </div>
+      <Arrow mt={24} />
+      <div className="section font-rubik text-white">
+        <div className="text-4xl font-lato italic font-bold">South Texas' first ever cyber-challenge for High Schoolers</div>
+        <div className="text-xl opacity-90 mt-4">Compete in a 4-person team with your friends against other teams completing coding challenges ranging from quite easy to comparably difficult king-of-the-hill style.</div>
+        <div className="text-xl opacity-90">Enter into 3 categories: Beginner, Medium, and Expert. Win prizes ranging from $50 to $2000. Are you ready?</div>
+      </div>
       <Arrow mt={24}/>
       <div id="events" className="section grid grid-cols-1 auto-rows-auto">
         <Event heading="Dinner games." subheading="Play fun games with friends at the dinner table.">We’ll have burritos, pizza, and drinks at 8pm while playing all the same games you loved during quarantine.<br />Wanna compete?</Event>
@@ -52,9 +58,9 @@ export default function Home() {
         <Question link={true} question="So what if I only know HTML and CSS?" answer="Not to worry, we’ll teach you the basics of Javascript to get you started on some of our challenges. It’s up to you to learn the rest!">
           a workshop modal that hasn't been finished yet
         </Question>
-        <p className="font-rubik text-sm">Click on a question to view more about it!!</p>
+        <p className="font-rubik text-sm">Click on the questions with <span className="text-yellow-400">gold</span> asterisks to see more info!</p>
       </div>
-      <Arrow mt={20} />
+      <Arrow mt={32} />
       <div id="sponsors" className="section">
         <Heading heading="Powered By" subheading="(cause we love our sponsors)" />
         <div id="sponsorgrid" className="grid grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">

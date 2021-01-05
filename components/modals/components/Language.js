@@ -4,7 +4,7 @@ export default function Language({
     featured,
 }) {
     return (
-        <div className={`uppercase font-rubik font-bold text-3xl ${featured ? 'text-yellow-400' : 'text-black'}`}>
+        <div className={`uppercase font-rubik font-bold text-lg md:text-3xl ${featured ? 'text-yellow-400' : 'text-black'}`}>
             <div>
                 {initial}
                 <div className={`inline ml-4 ${featured ? 'opacity-60' : 'opacity-25'}`}>

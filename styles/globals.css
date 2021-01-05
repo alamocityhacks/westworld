@@ -24,7 +24,7 @@ body {
 }
 
 .section {
-    @apply mx-auto px-8 md:px-36 xl:px-96 mt-12 md:mt-20 w-screen xl:mx-auto xl:w-4/5
+    @apply mx-auto px-8 md:px-36 xl:px-40 mt-12 md:mt-20 w-screen xl:mx-auto xl:w-4/5
 }
 
 .link {
@@ -32,7 +32,7 @@ body {
 }
 
 .blacklink {
-    @apply p-2 hover:bg-black hover:bg-opacity-20 rounded-lg hover:shadow-lg
+    @apply p-2 hover:bg-black hover:bg-opacity-10 rounded-lg hover:shadow-lg
 }
 
 .outline-text {
