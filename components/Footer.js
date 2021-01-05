@@ -9,7 +9,9 @@ export default function Footer() {
                     SOME MODALLL
                 </Link>
                 <Link name="Sponsor Deck" href="/sponsordeck.pdf" />
-                {/* <Link name="More Legal" href="/legal"></Link> */}
+                <Link name="Workshops">
+                    Workshop modal which hasn't been finished yet.
+                </Link>
                 <Link name="Donate">
                     <iframe src="https://bank.hackclub.com/donations/start/alamocityhacks" style={{ position: 'absolute', width: '100%', height: '100%', borderRadius: '0.25rem'}}>
                         Your browser doesn't support iframes
