@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function HeadObject() {
+export default function HeadObject({children}) {
     const title = "Alamo City Hacks | Westworld";
     const description = "San Antonio's First Cyberchallenge for High Schoolers.";
     const keywords = "hackathon, cyberchallenge, high school, san antonio, tech, coding, programming, fun";
@@ -24,6 +24,7 @@ export default function HeadObject() {
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={image} />
+            {children}
         </Head>
     )
 }
