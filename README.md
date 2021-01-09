@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Westworld
+Archived with no further use. v1 of Alamo City Hacks 2021 Coding Competition.
+The code is free to use.
 
 ## Getting Started
 
